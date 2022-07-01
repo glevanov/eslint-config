@@ -1,0 +1,17 @@
+{
+  "name": "@glevanov/eslint-config-base",
+  "version": "1.0.0",
+  "description": "Base eslint config",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript"
+  ],
+  "author": "Grigoriy Levanov <gregory@levanov.io>",
+  "license": "MIT"
+}
