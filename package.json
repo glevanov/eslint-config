@@ -2,11 +2,10 @@
   "name": "@glevanov/eslint-config",
   "version": "1.0.0",
   "description": "Typescript eslint config",
-  "main": "src/base.mjs",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "npm:publish": "npm publish --access public"
   },
-  "files": ["src"],
   "keywords": [
     "eslint",
     "eslintconfig",
