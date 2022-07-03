@@ -1,0 +1,27 @@
+export default {
+    extends: [
+        'eslint:recommended',
+        'plugin:compat/recommended',
+        'plugin:import/errors',
+        'plugin:import/warnings',
+        'plugin:import/typescript',
+        'plugin:import/recommended',
+    ],
+    rules: {
+        'semi': ['error', 'always'],
+        'quotes': ['error', 'single'],
+        'comma-dangle': ['error', 'always-multiline'],
+        'arrow-parens': ['error', 'always'],
+        'indent': ['error', 'tab'],
+        'brace-style': ['error', '1tbs'],
+        'curly': ['error', 'multi-line'],
+        'object-curly-spacing': ['error', 'always'],
+        'block-spacing': 'error',
+        'space-before-blocks': 'error',
+        'no-multi-spaces': 'error',
+        'no-multiple-empty-lines': ['error', { 'max': 1 }],
+        'import/no-unresolved': 'error',
+        'import/order': ['error', { 'newlines-between': 'always' }],
+        'import/no-default-export': 'warn',
+    },
+}
