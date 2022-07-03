@@ -1,7 +1,7 @@
 {
   "name": "@glevanov/eslint-config",
-  "version": "1.0.0",
-  "description": "Typescript eslint config",
+  "version": "1.0.1",
+  "description": "Eslint config for JS, TS and React",
   "main": "index.js",
   "scripts": {
     "npm:publish": "npm publish --access public"
